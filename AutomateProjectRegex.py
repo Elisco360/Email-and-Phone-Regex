@@ -15,3 +15,5 @@ email = re.findall("[a-z.0-9]+@[a-z.]+", text, re.IGNORECASE)   #Email regex
 for eachMail, eachNum in zip(email, phoneNum):
     comb = eachMail+" "+eachNum
     matches.append(comb)
+    
+   
